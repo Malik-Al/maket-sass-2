@@ -1,0 +1,35 @@
+.social {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.social-item:not(:last-child) {
+  margin-right: 11px;
+}
+.social-link {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 18px auto;
+  background-color: #444A34;
+  border-radius: 100%;
+  opacity: 0.4;
+}
+.social-link:hover {
+  opacity: 1;
+  background-color: #FFD723;
+}
+.social-link-fb {
+  background-image: url("../img/facebook.svg");
+}
+.social-link-tw {
+  background-image: url("../img/twitter.svg");
+}
+.social-link-g {
+  background-image: url("../img/google-plus.svg");
+}
+.social-link-in {
+  background-image: url("../img/linkedin.svg");
+}

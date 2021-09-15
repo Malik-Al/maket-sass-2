@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Future PI";
+  src: url("../fonts/FuturaPTMedium.woff2") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: 0;
+  font-family: "Poppins", serif;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.link {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #D4D6D4;
+  transition: color 0.3s ease-in-out;
+}
+.link svg {
+  fill: currentColor;
+  width: 12px;
+  height: 12px;
+  transform: translateY(1px);
+}
+.link span {
+  text-indent: 10px;
+  border-bottom: 1px solid currentColor;
+}
+.link:hover {
+  color: #FFD723;
+}
+
+a {
+  text-decoration: none;
+}

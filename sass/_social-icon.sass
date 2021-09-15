@@ -1,13 +1,22 @@
 .social 
     display: flex
     align-items: center
+    color: #fff
+    &-item:not(:last-child)
+        margin-right: 11px  
     &-link 
         display: block
         width: 33px
         height: 33px
         background-position: center
         background-repeat: no-repeat
-        background-size: cover
+        background-size: 18px auto
+        background-color: #444A34
+        border-radius: 100%  
+        opacity: 0.4
+        &:hover
+            opacity: 1
+            background-color: #FFD723
         &-fb 
             background-image: url('../img/facebook.svg')
         
